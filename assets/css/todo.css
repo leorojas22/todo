@@ -1,0 +1,115 @@
+body {
+
+	font-family: 'Open Sans', verdana;
+	font-size: 14px;	
+	
+	
+}
+
+
+.container {
+	
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+		
+}
+
+.header {
+	
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	height: 85px;
+	
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;	
+}
+	
+.createFormDiv {
+	
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	width: 40%;
+	min-height: 50px;
+	padding-bottom: 20px;
+	overflow: auto;
+		
+}
+
+.textBox {
+
+	width: 100%;
+	height: 75px;
+	border: dotted #00a8ff 1px;
+	padding: 10px;
+	font-family: 'Open Sans', verdana;
+	font-size: 14px;
+	
+}
+
+.clear {
+	clear: both;	
+}
+
+.errorDiv {
+	position: relative;
+	display: none;
+	clear: both;
+}
+
+.errorDiv p {
+	color: #ff4545;
+	text-align: center;	
+}
+
+
+.submitButton {
+	border-radius: 3px;
+	background-color: rgba(0,168,255,.75);
+	color: white;
+	font-family: 'Open Sans', verdana, sans-serif;
+	padding: 5px 20px;
+	border: solid rgba(0,168,255,1) 1px;
+	cursor: pointer;
+	font-weight: bold;
+	margin-top: 5px;
+	float: right;
+}
+
+.submitButton:hover {
+	background-color: rgba(0,168,255,.95);
+}
+
+
+
+.todoList {
+	border-top: dashed #00a8ff 1px;
+	padding: 10px;
+	padding-top: 20px;
+	
+}
+
+.todoItem {
+	display: inline-block;
+	padding: 10px;
+	border-bottom: dashed #00a8ff 1px;
+	width: 90%;
+}
+
+.todoDelete {
+	display: inline-block;
+	border-bottom: dashed #00a8ff 1px;
+	padding: 10px;
+	font-weight: bold;
+	color: red;
+	cursor: pointer;
+}
+
+
